@@ -1,0 +1,14 @@
+int a,b,result;
+read a;
+if 0<a then
+	b:=a;
+	result:=0;
+	do
+    		result:=result+a*b;
+    		a:=a-1;
+		if b<10 then
+			b:=b+1
+		end
+	while a>0;
+	write result
+end
